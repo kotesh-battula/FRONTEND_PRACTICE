@@ -1,0 +1,38 @@
+nav{
+    
+    justify-content:space-between;
+    display:flex;
+    padding-left:20px;
+    padding-right:20px;
+    flex-direction: row;
+}
+
+.link{
+    list-style-type: none;
+    display:flex;
+    padding:0px;
+    align-items:center;
+    gap:40px
+}
+.hero{
+    text-align: center;
+    padding: 130px;
+}
+.icon{
+    background-color: red;
+}
+
+.bg{
+    background:linear-gradient(to right, red,purple);
+}
+
+.last{
+    text-align:center;
+    position:down;
+    padding:100px;
+    padding-top: 50px;
+    font-size:70px;
+}
+.last>p{
+    font-size:15px;
+}
